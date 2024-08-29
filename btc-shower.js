@@ -1,12 +1,11 @@
 // npm i bitcoinjs-lib@4.0.5
-// npm install bip39@3.0.4
+// npm i bip39@3.0.4
 
 const bitcoin = require("bitcoinjs-lib");
 const bip39 = require("bip39");
 const axios = require("axios");
 
-const mnemonic =
-  "high guilt blame exotic special fault expand drive have ticket else index";
+const mnemonic = "12 MNEMONIC";
 
 const seed = bip39.mnemonicToSeedSync(mnemonic);
 const root = bitcoin.bip32.fromSeed(seed);
