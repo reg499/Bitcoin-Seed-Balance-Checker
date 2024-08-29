@@ -1,3 +1,4 @@
+// install
 // npm i bitcoinjs-lib@4.0.5
 // npm i bip39@3.0.4
 
